@@ -7,7 +7,10 @@ Base code is added to obtain images with Basler cameras through SDK and basic Op
 The code manages to save tagged images with their respective date and time, in addition to a json file that adds the binary sums of each photo, model of the camera and georeferenced location of the same.
 
 
-## Install Basler SDK Suite & OpenCV 
+## Install Basler SDK Suite & OpenCV
+
+Prerequisites
+
 ```
 Install_bash.sh (by adding)
 ```
