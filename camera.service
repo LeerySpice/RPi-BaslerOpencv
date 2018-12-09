@@ -1,0 +1,14 @@
+[Unit]
+Description=SICPA Service
+After=network.target
+
+[Service]
+ExecStart=/home/pi/SICPA/SICPA-EP
+WorkingDirectory=/home/pi/SICPA
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
