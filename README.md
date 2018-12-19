@@ -11,8 +11,12 @@ The code manages to save tagged images with their respective date and time, in a
 
 Prerequisites
 
+* Install OpenCV
+* Install API Basler Pylon
+
 ```
-Install_bash.sh (by adding)
+https://github.com/LeerySpice/RPI_Ins.OpenCV/Bash_RPI.sh
+     
 ```
 
 ## for the installation of the repo
